@@ -16,4 +16,8 @@ else{
 let q = 10;
 q % 2 == 0 ? console.log("Even") : console.log("Odd");
 
-let f = 10;
+//looping
+let car = ["porsche", "BMW", "Jaguar"]
+for (let i = 0;i<car.length;i++){
+    console.log(car[i])
+}
