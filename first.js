@@ -20,3 +20,11 @@ let car = ["porsche", "BMW", "Jaguar"]
 for (let i = 0;i<car.length;i++){
     //console.log(car[i])
 }
+
+//functions
+function hello(){
+    return "Kevin";
+}
+
+let fname = hello();
+//console.log(fname);
