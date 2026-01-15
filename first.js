@@ -34,3 +34,7 @@ const person = {};
 person.firname = "kevin";
 person.lastname = "Vinsent";
 person.age = 21;
+
+//dates
+const dates = new Date("january 15 2026, 17:42:15");
+const andate = new Date("2026-01-15, 17:43:15");
