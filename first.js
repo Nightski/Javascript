@@ -28,3 +28,9 @@ function hello(){
 
 let fname = hello();
 //console.log(fname);
+
+//objects
+const person = {};
+person.firname = "kevin";
+person.lastname = "Vinsent";
+person.age = 21;
