@@ -1,7 +1,23 @@
+#main{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 #about{
     text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
 #more{
     align-items: center;
     text-align: center;
+    background-color: azure;
+    padding-bottom: 7px;
+    border-radius: 10px;
+}
+#shine{
+    background-color: bisque;
+    border-radius: 10px;
+    width: 250px;
 }
