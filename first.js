@@ -6,19 +6,19 @@ const name = "Kevin";
 //conditions
 let p = 19
 if(p % 2 == 0){
-    //console.log("Even");
+    console.log("Even");
 }
 else{
-    //console.log("Odd");
+    console.log("Odd");
 }
 
 let q = 10;
-//q % 2 == 0 ? console.log("Even") : console.log("Odd");
+q % 2 == 0 ? console.log("Even") : console.log("Odd");
 
 //looping
 let car = ["porsche", "BMW", "Jaguar"]
 for (let i = 0;i<car.length;i++){
-    //console.log(car[i])
+    console.log(car[i])
 }
 
 //functions
@@ -27,7 +27,7 @@ function hello(){
 }
 
 let fname = hello();
-//console.log(fname);
+console.log(fname);
 
 //objects
 const person = {};
@@ -41,3 +41,6 @@ const andate = new Date("2026-01-15, 17:43:15");
 
 //arrays
 const arr = ["Apple", "Banana", "Mango"];
+const num = [5,8,9,63,4];
+//to sort numbers in js
+console.log(num.sort(function (a,b){return a - b}));
